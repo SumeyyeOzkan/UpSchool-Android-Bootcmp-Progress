@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string name="lets_start">Let’s Start!</string>
+    <string name="start_now">Start Now</string>
+    <string name="efficiently_and_effectively">efficiently and effectively</string>
+    <string name="learn_at_home">Learn at home!</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="access">access!</string>
+    <string name="get_unlimited">Get unlimited</string>
+    <string name="per_year_">per year</string>
+    <string name="per_year">per year</string>
+    <string name="_4_99_">$4.99</string>
+    <string name="_4_99">$4.99</string>
+    <string name="_11_99_">$11.99</string>
+    <string name="_143_99">$143.99</string>
+    <string name="_59_99">$59.99</string>
+    <string name="_11_99">$11.99</string>
+    <string name="per_month">per month</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+</resources>
