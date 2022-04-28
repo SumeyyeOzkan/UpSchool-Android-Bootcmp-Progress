@@ -5,7 +5,9 @@ Bu çalışmaların görselleri aşağıdaki linkten indirilmiştir. These syste
 https://www.sketchappsources.com/free-source/4762-design-courses-app-sketch-freebie-resource.html <br>
 
 Çalışmalar herhangi bir programda ya da figma.com'dan açılıp tasarımlar android studio'da yapılır. works open with any program or figma.com than prapere android studio <br>
-https://www.figma.com/
+https://www.figma.com/ <br>
+
+Data binding sayesinde sayfalar arası geçiş sağlanmaktadır
 
 <table>
   <tr>
