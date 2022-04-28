@@ -2,7 +2,7 @@
 
 **Font family dosyası nasıl oluşturulup kullanıyoruz?** <br> 
 **Neden belirttiğiniz şekilde kullanımı tercih ediyoruz?** <br> 
-**P.S. Bu linkten faydalanarak font family projenizde deneyebilirsiniz.** <br> 
+**P.S. [Bu linkten](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml "android resource") faydalanarak font family projenizde deneyebilirsiniz.** <br> 
  
 **Cevap:** <br>
 -Projede kullanılacak olan fontta google fontu seçtiysek ilerleyen zamanlarda google bu fontu kaldırabilir. Bu sebeple fontun projeye gömülmesi önemlidir.<br>
