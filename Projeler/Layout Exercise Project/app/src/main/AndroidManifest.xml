@@ -13,10 +13,10 @@
             android:name=".StartActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".PremiumActivity"
             android:exported="false" />
         <activity
-            android:name=".PremiumActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
