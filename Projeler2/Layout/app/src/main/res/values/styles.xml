@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EntryTitleStyle">
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#2C2B47</item>
+        <item name="android:textSize">39sp</item>
+    </style>
+
+    <style name="HomeSubTittleStyle">
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:textColor">#B9B8C6</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="StartInputStyle">
+        <item name="android:background">@drawable/ic_start_input_background</item>
+        <item name="android:fontFamily">@font/acme</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">#2C2B47</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">186dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:backgroundTint">#2C2B47</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

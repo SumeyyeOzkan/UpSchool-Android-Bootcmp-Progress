@@ -1,5 +1,0 @@
-https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin
-
-https://github.com/googlecodelabs/android-room-with-a-view/tree/kotlin/app/src/main/java/com/example/android/roomwordssample
-
-

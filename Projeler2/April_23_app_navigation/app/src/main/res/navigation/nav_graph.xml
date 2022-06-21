@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AFragment">
+<!--
+    <action android:id="@+id/myaction"
+        app:destination="@+id/BFragment"
+        />
+-->
+
+    <fragment
+        android:id="@+id/AFragment"
+        android:name="com.sumeyye.april_23_app_navigation.AFragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/action_AFragment_to_dialogFragment"
+            app:destination="@id/dialogFragment" />
+        <action
+            android:id="@+id/action_AFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_AFragment_to_nav_start"
+            app:destination="@id/nav_start" />
+        <action
+            android:id="@+id/action_AFragment_to_BFragment"
+            app:destination="@id/BFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.sumeyye.april_23_app_navigation.BFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" >
+        <argument
+            android:name="mynumber"
+            app:argType="integer"
+            />
+        <!--
+              <argument
+            android:name="mynumber"
+            app:argType="integer"
+            android:defaultValue="0" /> -->
+    </fragment>
+    <dialog
+        android:id="@+id/dialogFragment"
+        android:name="com.sumeyye.april_23_app_navigation.DialogFragment"
+        android:label="DialogFragment" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.sumeyye.april_23_app_navigation.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" >
+        <argument
+            android:name="user"
+            app:argType="string"
+            android:defaultValue="bos" />
+
+    </activity>
+    <include app:graph="@navigation/nav_start" />
+</navigation>

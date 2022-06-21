@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"> <!--<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval"> yuvarlak olur -->
+    <solid android:color="#C81717"></solid> <!-- soldaki kırmızı kutuya tıklayarak custom seçilir ve istenen renk seçilir-->
+   <!-- üstteki rengi koyarsak hepsi kırmızı olur renk değişmez, renksiz yaparsak main activityde istediğimiz rengi verebiliriz -->
+
+    <corners android:radius="500dp"></corners>
+
+</shape>

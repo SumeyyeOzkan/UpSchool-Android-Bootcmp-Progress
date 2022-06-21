@@ -1,3 +1,0 @@
-https://blog.mindorks.com/implementing-dialog-fragment-in-android
-https://developer.android.com/guide/navigation/navigation-nested-graphs
-https://developer.android.com/guide/navigation/navigation-pass-data

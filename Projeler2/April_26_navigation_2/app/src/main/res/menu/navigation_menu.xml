@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    app eklenmedigi için app üzerine gelip alt+enter yaparak eklenir
+    android:icon="@color/purple_500" normal renk bunu sildik
+     android:icon="@drawable/ic_baseline_menu_24" vektörden eklenen menu buraya ekledik
+      android:icon="@drawable/ic_baseline_favorite_24" favori kalpli ikonu ekledik
+    -->
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="List"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="Favorites"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

@@ -1,2 +1,0 @@
-https://developer.android.com/reference/android/Manifest.permission
-https://developer.android.com/training/basics/network-ops/managing

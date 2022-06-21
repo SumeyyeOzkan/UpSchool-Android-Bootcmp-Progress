@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">April19_Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_messages">No Messages</string>
+    <string name="when_you_have_messages_you_ll_n_see_them_here">When you have messages you’ll \n see them here</string>
+    <string name="go_back">Go Back</string>
+</resources>
