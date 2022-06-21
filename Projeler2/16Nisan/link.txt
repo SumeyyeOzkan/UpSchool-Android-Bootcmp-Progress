@@ -1,0 +1,8 @@
+https://material.io/
+https://developer.android.com/guide/topics/resources/drawable-resource#Shape
+https://developer.android.com/guide/topics/resources/animation-resource
+https://developer.android.com/guide/topics/resources/animation-resource
+https://developer.android.com/guide/topics/resources/animation-resource
+
+
+

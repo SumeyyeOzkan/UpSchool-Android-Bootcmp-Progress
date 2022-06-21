@@ -1,0 +1,14 @@
+val number:Char='6' val number2=number.tolnt()
+burada tolnt() için verdiğim örnekler geçerli
+
+https://github.com/sdex/WorkManager-Samples
+
+https://developer.android.com/topic/libraries/architecture/workmanager/basics#groovy
+
+viewpager tab layout
+
+https://github.com/suveybesena/ShoppingApp/blob/master/app/src/main/java/com/suveybesena/shoppingapp/presentation/mainfeed/MainFeedFragment.kt
+
+https://mood2movie.com/
+
+https://teachablemachine.withgoogle.com/ 
