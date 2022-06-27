@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991739742287",
+    "project_id": "smvt-da8eb",
+    "storage_bucket": "smvt-da8eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991739742287:android:89a81d12240ad0a7ea423a",
+        "android_client_info": {
+          "package_name": "com.sumeyye.sm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991739742287-pnilv085p9s5b6cb43mhchfbauj6qjeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQFnrO0DJSU27fJ58fyDc-9q5nRxAao0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991739742287-pnilv085p9s5b6cb43mhchfbauj6qjeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

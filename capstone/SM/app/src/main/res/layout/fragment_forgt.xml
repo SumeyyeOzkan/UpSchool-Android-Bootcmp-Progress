@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgtFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Forget"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/f_email"
+        app:layout_constraintStart_toStartOf="@+id/f_email"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/f_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="32dp"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:selectAllOnFocus="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_forget"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="48dp"
+                android:backgroundTint="#DB3022"
+                android:enabled="true"
+                android:text="SEND"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:cornerRadius="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="395dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Please, enter your email address. You will receive a \n link to create a new password via email."
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/f_email"
+                app:layout_constraintStart_toStartOf="@+id/f_email"
+                app:layout_constraintTop_toBottomOf="@+id/f_email" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </layout>
